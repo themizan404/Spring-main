@@ -18,7 +18,5 @@ public class Test {
         ApplicationContext context = new ClassPathXmlApplicationContext("com/mizan/spring/applicationContext.xml");
         Employee emp = (Employee) context.getBean("employee");
         emp.show();
-        System.out.println(" ++ ");
-
     }
 }
