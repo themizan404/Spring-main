@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+ 
+<!--
+     <bean id="traineeMsg1" class="com.spring.java.TraineeMessage">
+        <constructor-arg value="Message 1"></constructor-arg>
+        <constructor-arg value="Message 2"></constructor-arg>
+        <constructor-arg value="Message 3"></constructor-arg>
+    </bean>
+    
+    
+     <bean id="traineeMsg3" class="com.spring.java.TraineeMessage">
+        <constructor-arg value="Message 7"></constructor-arg>
+        <constructor-arg value="Message 8"></constructor-arg>
+        <constructor-arg value="Message 9"></constructor-arg>
+    </bean>
+    
+     <bean id="traineeMsg2" class="com.spring.java.TraineeMessage">
+        <constructor-arg value="Message 4"></constructor-arg>
+        <constructor-arg value="Message 5"></constructor-arg>
+        <constructor-arg value="Message 6"></constructor-arg>
+    </bean>
+     <bean id="msg" class="com.spring.java.Message">
+       <constructor-arg value="JAVA Message"></constructor-arg>
+        <constructor-arg value="101"></constructor-arg>
+        <constructor-arg value="Hello"></constructor-arg>
+         <constructor-arg>
+             <ref bean="traineeMsg"></ref>
+         </constructor-arg>
+       <constructor-arg>
+             <ref bean="traineeMsg"></ref>
+
+         </constructor-arg>
+         
+      
+         <constructor-arg>
+             <list>
+                 <ref bean="traineeMsg1"></ref>
+                 <ref bean="traineeMsg2"></ref>
+                 <ref bean="traineeMsg3"></ref>
+             </list>
+         </constructor-arg>
+    </bean>-->
+    
+    
+    
+    
+    <bean id="traineeMessage" class="com.spring.java.TraineeMessage">
+        <constructor-arg value="Message 1"></constructor-arg>
+        <constructor-arg value="Message 2"></constructor-arg>
+        <constructor-arg value="Message 3"></constructor-arg>
+    </bean>
+<!--    <bean id="traineeMessage1" class="com.spring.java.TraineeMessage">
+        <constructor-arg value="Message 4"></constructor-arg>
+        <constructor-arg value="Message 5"></constructor-arg>
+        <constructor-arg value="Message 6"></constructor-arg>
+    </bean>
+    -->
+<!--     <bean id="traineeMsg2" class="com.spring.java.TraineeMessage">
+        <constructor-arg value="Message 4"></constructor-arg>
+        <constructor-arg value="Message 5"></constructor-arg>
+        <constructor-arg value="Message 6"></constructor-arg>
+    </bean>-->
+
+<!--<bean id="message" class="com.spring.java.Message" >
+    <property name="traineeMessage">
+        <ref bean="traineeMsg1"></ref>
+    </property>
+</bean>-->
+
+<bean id="message1" class="com.spring.java.Message"
+init-method="startBean" destroy-method="destroyBean"
+>
+<!--<property name="traineeMessage1">
+        <ref bean="traineeMsg2"></ref>
+    </property>-->
+</bean>
+    
+    
+
+</beans>
+
+
+
+
