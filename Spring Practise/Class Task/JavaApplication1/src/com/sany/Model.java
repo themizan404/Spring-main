@@ -19,5 +19,8 @@ public class Model {
         this.msg = msg;
     }
 
-    
+    public void Show() {
+        System.out.println("Just Try");
+    }
+
 }

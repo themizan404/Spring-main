@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class JavaApplication1 {
 
     public static void main(String[] args) {
-     /*   Model m = new Model();
+        /*   Model m = new Model();
         m.setMsg("Hello World");
         System.out.println(m.getMsg());
 
@@ -15,14 +15,14 @@ public class JavaApplication1 {
         Model msg = context.getBean(Model.class);
         msg.setMsg("Hello Spring");
         System.out.println(msg.getMsg()); */
-     
-     ApplicationContext context= new ClassPathXmlApplicationContext("com/sany/newXMLDocument.xml");
-     
-     Model msg=(Model) context.getBean("msg");
-     
-     msg.setMsg("Hello");
-        System.out.println(msg.getMsg());
-     
+
+        ApplicationContext context = new ClassPathXmlApplicationContext("com/sany/newXMLDocument.xml");
+
+        Model msg = (Model) context.getBean("msg");
+        msg.Show();
+
+//     msg.setMsg("Hello");
+//        System.out.println(msg.getMsg());
     }
 
 }
