@@ -9,6 +9,7 @@ public class SpringDemo {
         Message m = new Message();
         m.setMsg("Mizan404");
         System.out.println(m.getMsg());
+
         ApplicationContext context = new AnnotationConfigApplicationContext(ApplicationConfig.class);
         Message msg = context.getBean(Message.class);
         msg.setMsg("Hello Mizan");

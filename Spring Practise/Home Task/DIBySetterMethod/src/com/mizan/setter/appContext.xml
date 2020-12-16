@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<beans 
+    xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+    <!--bean definitions here-->
+    <bean id="address1"  class="com.mizan.setter.Address">
+        <property name="addressLine1" >
+            <value>257, Kafrul </value>
+        </property>
+        <property name="city" > 
+            <value>Dhaka </value> 
+        </property>
+        <property name="state" >  
+            <value>Dhaka </value> 
+        </property>
+        <property name="country" > 
+            <value>Dhaka </value> 
+        </property>
+        
+    </bean>
+    <bean id="emp"  class="com.mizan.setter.Employee">
+        <property name="id" >
+            <value>404 </value>
+        </property>
+        <property name="name" > 
+            <value>Mizan </value>
+        </property>
+        <property name="address" >
+            <ref bean="address1"></ref>
+        </property>
+       
+    </bean>
+    
+</beans>
