@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+ <!--The context path is the prefix of a URL path that is used to access the application-->
+ <Context path="/" />

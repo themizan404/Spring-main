@@ -9,6 +9,6 @@
 <body>
 	<h1 style="text-align: center;">Mohammad Mizanur Rahman</h1>
 	<hr>
-	<a href="showForm">Hello World Form</a>
+	<a href="hello/showForm">Hello World Form</a>
 </body>
 </html>

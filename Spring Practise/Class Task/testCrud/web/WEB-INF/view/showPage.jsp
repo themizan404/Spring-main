@@ -14,5 +14,6 @@
     <body>
         <h1>Hello World!</h1>
         <h1>Mizan</h1>
+        <a href="/create">Create</a>
     </body>
 </html>

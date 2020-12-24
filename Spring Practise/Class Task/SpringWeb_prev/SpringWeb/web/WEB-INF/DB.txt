@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `tsp`.`employee`;
+CREATE TABLE  `tsp`.`employee` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `name` varchar(45) default NULL,
+  `nid` int(10) unsigned default NULL,
+  `salary` double default NULL,
+  `area` varchar(45) default NULL,
+  `city` varchar(45) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=117 DEFAULT CHARSET=latin1;

@@ -8,10 +8,18 @@
 </head>
 <body>
 
-	<form action="processFormVersionTwo" method="get">
+	<form action="processFormVersionThree" method="get">
 		<input type="text" name="studentName" placeholder="What's your name?" />
 
-		<input type="submit" value="Submit"/>
+		<input type="submit" value="Submit" />
 	</form>
+
+	<br>
+	<br>
+
+	<img src="${pageContext.request.contextPath}/resources/images/pic.jpg" />
+
+	<br>
+	<br>
 </body>
 </html>

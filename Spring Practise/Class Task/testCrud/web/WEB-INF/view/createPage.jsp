@@ -15,5 +15,14 @@
         <h1>Hello World!</h1>
         <input type="text" placeholder="What's your name?"/>
         <button type="submit" >Submit</button>
+        <br>
+        <br>
+        <br>
+        <a href="/">Show Page</a>
+        <br><br>
+        <!--
+            <spring:url value="/resources/images" var="images" />
+            <img src="${images}/pic.jpg"/>-->
+
     </body>
 </html>
