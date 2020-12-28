@@ -12,9 +12,8 @@ import javax.persistence.Id;
  *
  * @author fmrasel
  */
-@Entity(name = "student")
+@Entity()
 public class Student {
-
     @Id
     private int id;
     private String name;
@@ -43,5 +42,6 @@ public class Student {
     public void setAddress(String address) {
         this.address = address;
     }
-
+    
+    
 }

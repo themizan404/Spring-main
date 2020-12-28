@@ -1,0 +1,10 @@
+1. C:\Program Files\NetBeans 8.0.2\etc\netbeans.conf
+-J-Djdk.lang.Process.allowAmbiguousCommands=true
+
+2. C:\Program Files\NetBeans 8.0.2\java\maven\conf\settings.xml
+     <mirror>
+      <id>mirror1</id>
+      <mirrorOf>central</mirrorOf>
+      <name>mirror1</name>
+      <url>https://repo.maven.apache.org/maven2/</url>
+     </mirror>

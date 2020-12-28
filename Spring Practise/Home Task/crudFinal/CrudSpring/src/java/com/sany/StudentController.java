@@ -23,36 +23,34 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class StudentController {
-
     @Autowired
     StudentService service;
-
+    
     @RequestMapping("")
-    public String home() {
+    public String home(){
         return "index";
     }
-
-    @RequestMapping(value = "/create", method = RequestMethod.GET)
-    public ModelAndView create() {
-        Map<String, Object> map = new HashMap<String, Object>();
-        List<Student> students = service.getAll();
+    @RequestMapping(value = "/create",method = RequestMethod.GET)
+    public ModelAndView create(){
+        Map<String, Object> map= new HashMap<String,Object>();
+        List<Student> students= service.getAll();
         map.put("students", students);
-        return new ModelAndView("/create", "map", map);
+        return new ModelAndView("/create", "map",map);
     }
-
+    
     @RequestMapping(value = "/edit/{id}", method = RequestMethod.GET)
     public String edit(ModelMap map, @PathVariable("id") int id) {
         Student st = service.getById(id);
         map.addAttribute("st", st);
         return "create";
     }
-
+    
     @RequestMapping(value = "/update", method = RequestMethod.POST)
     public String update(HttpServletRequest request) {
-        Student s = service.update(request);
+        Student s= service.update(request);
         return "redirect:/create";
     }
-
+    
 //    @RequestMapping(value = "/edit/{id}",method = RequestMethod.GET)
 //    public ModelAndView edit(int id){
 //        Map<String, Object> map= new HashMap<String,Object>();
@@ -67,15 +65,16 @@ public class StudentController {
 //        map.put("students", students);
 //        return new ModelAndView("/view", "map",map);
 //    }
+    
     @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
     public String delete(@PathVariable("id") int id) { //Using @PathVariable by URL
         service.delete(id);
         return "redirect:/create";  // Redirect to a Handler Mapping after an action
     }
-
-    @RequestMapping(value = "/save", method = RequestMethod.POST)
-    public String save(HttpServletRequest request) {
+    
+     @RequestMapping(value = "/save" ,method = RequestMethod.POST)
+    public String save(HttpServletRequest request){
         service.save(request);
-        return "redirect:/create";
+         return "redirect:/create";
     }
 }
