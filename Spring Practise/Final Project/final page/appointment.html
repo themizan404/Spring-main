@@ -7,78 +7,68 @@
     <title>spring project</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Advanced-NavBar---Multi-dropdown.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-4---Table-Fixed-Header.css">
+    <link rel="stylesheet" href="assets/css/Data-Table-with-Search-Sort-Filter-and-Zoom-using-TableSorter.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/FPE-Gentella-form-elements-1.css">
+    <link rel="stylesheet" href="assets/css/FPE-Gentella-form-elements.css">
+    <link rel="stylesheet" href="assets/css/Google-Style-Login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.bootstrap_4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Center.css">
     <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Pretty-Header.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Product-List.css">
+    <link rel="stylesheet" href="assets/css/Profile-Edit-Form-1.css">
+    <link rel="stylesheet" href="assets/css/Profile-Edit-Form.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Table-With-Search-1.css">
+    <link rel="stylesheet" href="assets/css/Table-With-Search.css">
 </head>
 
-<body>
+<body style="background-color: rgb(255,255,255);">
     <p class="text-center" style="margin-top: 100px;font-size: 30px;"><strong>Appointment Form</strong></p>
-    <div class="container text-center" style="margin-top: 20px;background-color: #ffffff;">
+    <div class="container text-center border-dark" style="margin-top: 20px;background-color: #ffffff;padding-top: 20px;padding-bottom: 20px;">
         <div class="row">
-            <div class="col-3 offset-xl-1 text-right" style="height: 40px;font-size: 21px;margin-top: 4px;">
-                <p class="text-right" style="font-size: 24px;color: #7fba00;"><strong>Patient NID Number :&nbsp;</strong></p>
+            <div class="col-2"></div>
+            <div class="col" style="padding-top: 0;color: rgb(0,123,247);">
+                <form class="text-left"><label style="font-size: 25px;"><strong>Patient NID&nbsp;</strong></label><input class="border rounded border-dark form-control form-control-lg" type="number" placeholder="Patient NID"><label style="font-size: 20px;"><strong>Patient Name</strong></label>
+                    <input
+                        class="form-control-plaintext border rounded border-dark" type="text" readonly=""><label style="font-size: 20px;"><strong>Patient Father Name</strong></label><input class="form-control-plaintext border rounded border-dark" type="text" readonly=""><label style="font-size: 20px;"><strong>Patient Mother Name</strong></label>
+                        <input
+                            class="form-control-plaintext border rounded border-dark" type="text" readonly=""><label style="font-size: 20px;"><strong>Patient Age</strong></label><input class="form-control-plaintext border rounded border-dark" type="text" readonly=""><label style="font-size: 20px;"><strong>Patient Gender</strong></label>
+                            <input
+                                class="form-control-plaintext border rounded border-dark" type="text" readonly=""><label style="font-size: 20px;"><strong>Patient Address</strong></label><input class="form-control-plaintext border rounded border-dark" type="text" readonly=""><label style="font-size: 20px;"><strong>Patient NID&nbsp;</strong></label>
+                                <select
+                                    class="border rounded border-dark form-control">
+                                    <optgroup label="This is a group">
+                                        <option value="12" selected="">This is item 1</option>
+                                        <option value="13">This is item 2</option>
+                                        <option value="14">This is item 3</option>
+                                    </optgroup>
+                                    </select><button class="btn btn-warning btn-block btn-lg text-uppercase border rounded" data-bs-hover-animate="pulse" type="submit" style="margin-top: 20px;margin-bottom: 10px;"><strong>appointment</strong></button></form>
             </div>
-            <div class="col-4 col-xl-5 offset-xl-0 text-left" style="font-size: 21px;margin-top: 0px;"><input class="form-control-lg" type="text" style="width: 400px;" placeholder="Patient NID Number"></div>
-            <div class="col-2 text-left" style="font-size: 21px;"><button class="btn btn-primary text-center" type="button" style="font-size: 20px;margin-left: 0px;margin-bottom: 0px;"><strong>SEARCH</strong></button></div>
-        </div>
-        <div class="row" style="margin-top: 10px;">
-            <div class="col-3 offset-xl-1 text-right" style="height: 40px;font-size: 21px;margin-top: 5px;">
-                <p class="text-right" style="font-size: 18px;"><strong>Patient Name :&nbsp;</strong></p>
-            </div>
-            <div class="col-4 col-xl-5 offset-xl-0 text-left" style="font-size: 21px;"><input class="form-control-plaintext border rounded border-dark" type="text" readonly="" style="width: 402px;margin-top: 2px;"></div>
-        </div>
-        <div class="row" style="margin-top: 10px;">
-            <div class="col-3 offset-xl-1 text-right" style="height: 40px;font-size: 21px;margin-top: 5px;">
-                <p class="text-right" style="font-size: 18px;"><strong>Patient's Father Name:&nbsp;</strong></p>
-            </div>
-            <div class="col-4 col-xl-5 offset-xl-0 text-left" style="font-size: 21px;"><input class="form-control-plaintext border rounded border-dark" type="text" readonly="" style="width: 402px;margin-top: 2px;"></div>
-        </div>
-        <div class="row" style="margin-top: 10px;">
-            <div class="col-3 offset-xl-1 text-right" style="height: 40px;font-size: 21px;margin-top: 5px;">
-                <p class="text-right" style="font-size: 18px;"><strong>Patient's Mother Name:&nbsp;</strong></p>
-            </div>
-            <div class="col-4 col-xl-5 offset-xl-0 text-left" style="font-size: 21px;"><input class="form-control-plaintext border rounded border-dark" type="text" readonly="" style="width: 402px;margin-top: 2px;"></div>
-        </div>
-        <div class="row" style="margin-top: 10px;">
-            <div class="col-3 offset-xl-1 text-right" style="height: 40px;font-size: 21px;margin-top: 5px;">
-                <p class="text-right" style="font-size: 18px;"><strong>Patient's Age:&nbsp;</strong></p>
-            </div>
-            <div class="col-4 col-xl-5 offset-xl-0 text-left" style="font-size: 21px;"><input class="form-control-plaintext border rounded border-dark" type="text" readonly="" style="width: 402px;margin-top: 2px;"></div>
-        </div>
-        <div class="row" style="margin-top: 10px;">
-            <div class="col-3 offset-xl-1 text-right" style="height: 40px;font-size: 21px;margin-top: 5px;">
-                <p class="text-right" style="font-size: 18px;"><strong>Patient's Gender:&nbsp;</strong></p>
-            </div>
-            <div class="col-4 col-xl-5 offset-xl-0 text-left" style="font-size: 21px;"><input class="form-control-plaintext border rounded border-dark" type="text" readonly="" style="width: 402px;margin-top: 2px;"></div>
-        </div>
-        <div class="row" style="margin-top: 10px;">
-            <div class="col-3 offset-xl-1 text-right" style="height: 40px;font-size: 21px;margin-top: 5px;">
-                <p class="text-right" style="font-size: 18px;"><strong>Patient's Address:&nbsp;</strong></p>
-            </div>
-            <div class="col-4 col-xl-5 offset-xl-0 text-left" style="font-size: 21px;"><input class="form-control-plaintext border rounded border-dark" type="text" readonly="" style="width: 402px;margin-top: 2px;"></div>
-        </div>
-        <div class="row" style="margin-top: 10px;">
-            <div class="col-3 offset-xl-1 text-right" style="height: 40px;font-size: 21px;margin-top: 5px;">
-                <p class="text-right" style="font-size: 18px;"><strong>Patien's Problem:&nbsp;</strong></p>
-            </div>
-            <div class="col-4 col-xl-5 offset-xl-0 text-left" style="font-size: 21px;">
-                <div class="dropdown"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Dropdown </button>
-                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
-                </div>
-            </div>
-            <div class="col text-left"><button class="btn btn-success" type="button" style="font-size: 20px;"><strong>SUBMIT</strong></button></div>
+            <div class="col-2 text-left"><button class="btn btn-success btn-lg text-uppercase border rounded" data-bs-hover-animate="pulse" type="submit" style="margin-top: 45px;"><strong>Search</strong></button></div>
         </div>
     </div>
-    <hr style="height: 10px;">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/Advanced-NavBar---Multi-dropdown.js"></script>
+    <script src="assets/js/Data-Table-with-Search-Sort-Filter-and-Zoom-using-TableSorter.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/jquery.tablesorter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-filter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-storage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/Profile-Edit-Form.js"></script>
+    <script src="assets/js/Table-With-Search.js"></script>
 </body>
 
 </html>
