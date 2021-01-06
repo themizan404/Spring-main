@@ -1,0 +1,37 @@
+<li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-297"><a href="#">Departments</a>
+<ul class="sub-menu">
+	<li id="menu-item-939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-939"><a href="https://emcbd.com/department-of-anatomy/">Department of Anatomy</a></li>
+	<li id="menu-item-996" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-996"><a href="https://emcbd.com/department-of-physiology-2/">Department of Physiology</a></li>
+	<li id="menu-item-1067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1067"><a href="https://emcbd.com/department-of-biochemistry-2/">Department of Biochemistry</a></li>
+	<li id="menu-item-1068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1068"><a href="https://emcbd.com/department-of-community-medicine-2/">Department of Community Medicine</a></li>
+	<li id="menu-item-336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-336"><a href="https://emcbd.com/department-of-forensic-medicine/">Department of Forensic Medicine</a></li>
+	<li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="https://emcbd.com/department-of-pathology/">Department of Pathology</a></li>
+	<li id="menu-item-300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-300"><a href="https://emcbd.com/department-of-microbiology/">Department of Microbiology</a></li>
+	<li id="menu-item-335" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-335"><a href="https://emcbd.com/department-of-pharmacology/">Department of Pharmacology</a></li>
+	<li id="menu-item-334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-334"><a href="https://emcbd.com/department-of-medicine/">Department of Medicine</a></li>
+	<li id="menu-item-332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-332"><a href="https://emcbd.com/department-of-gastroenterology/">Department of Gastroenterology</a></li>
+	<li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="https://emcbd.com/department-of-pediatrics/">Department of Pediatrics</a></li>
+	<li id="menu-item-344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-344"><a href="https://emcbd.com/department-of-skin-vd/">Department of Skin &#038; VD</a></li>
+	<li id="menu-item-372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-372"><a href="https://emcbd.com/department-of-cardiology/">Department of Cardiology</a></li>
+	<li id="menu-item-331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"><a href="https://emcbd.com/department-of-surgery/">Department of Surgery</a></li>
+	<li id="menu-item-2861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2861"><a href="https://emcbd.com/department-of-pediatrics-surgery/">Department of Pediatric Surgery</a></li>
+	<li id="menu-item-330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-330"><a href="https://emcbd.com/department-of-orthopedic-surgery/">Department of Orthopedic Surgery</a></li>
+	<li id="menu-item-329" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"><a href="https://emcbd.com/department-of-ent/">Department of ENT</a></li>
+	<li id="menu-item-368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-368"><a href="https://emcbd.com/department-of-ophthalmology/">Department of Ophthalmology</a></li>
+	<li id="menu-item-376" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-376"><a href="https://emcbd.com/department-of-gynae-obs/">Department of Gynaecology &#038; Obstetrics</a></li>
+	<li id="menu-item-343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-343"><a href="https://emcbd.com/department-of-radiology-imaging/">Department of Radiology &#038; Imaging</a></li>
+	<li id="menu-item-328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-328"><a href="https://emcbd.com/department-of-anesthesia-icu/">Department of Anesthesiology &#038; ICU</a></li>
+	<li id="menu-item-375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-375"><a href="https://emcbd.com/department-of-radiation-oncology/">Department of Radiation Oncology</a></li>
+	<li id="menu-item-1069" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1069"><a href="https://emcbd.com/department-of-psychiatry/">Department of Psychiatry</a></li>
+	<li id="menu-item-1070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1070"><a href="https://emcbd.com/department-of-neurology/">Department of Neurology</a></li>
+	<li id="menu-item-1071" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1071"><a href="https://emcbd.com/department-of-hematology/">Department of Hematology</a></li>
+	<li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="https://emcbd.com/department-of-endocrinology/">Department of Endocrinology</a></li>
+	<li id="menu-item-1073" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1073"><a href="https://emcbd.com/department-of-blood-transfusion/">Department of Transfusion Medicine</a></li>
+	<li id="menu-item-2871" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2871"><a href="https://emcbd.com/department-of-urology/">Department of Urology</a></li>
+	<li id="menu-item-2872" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2872"><a href="https://emcbd.com/department-of-rheumatology/">Department of Rheumatology</a></li>
+	<li id="menu-item-3914" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3914"><a href="https://emcbd.com/nephrology/">Department of Nephrology</a></li>
+	<li id="menu-item-3926" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3926"><a href="https://emcbd.com/burn-plastic-reconstructive-surgery/">Burn Plastic &#038; Reconstructive Surgery</a></li>
+	<li id="menu-item-3927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3927"><a href="https://emcbd.com/neuro-surgery-spine-surgery/">Department of Neuro-surgery &#038; Spine Surgery</a></li>
+	<li id="menu-item-3961" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3961"><a href="https://emcbd.com/department-of-pulmonology/">Department of Pulmonology</a></li>
+</ul>
+</li>
