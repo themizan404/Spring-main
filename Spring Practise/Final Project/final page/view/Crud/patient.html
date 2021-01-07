@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <ul class="nav nav-pills">
+    <li class="active"><a data-toggle="tab" href="#save">Save</a></li>
+    <li><a data-toggle="tab" href="#update">Update</a></li>
+    <li><a data-toggle="tab" href="#ViewAndDelete"> View And Delete</a></li>
+  
+  </ul>
+
+  <div class="tab-content">
+    <div id="save" class="tab-pane fade in active">
+    <div class="container shadow-lg profile profile-view" id="profile" style="background-color: #f4f4f4;margin-top: 150px;margin-bottom: 150px;">
+        <div class="row">
+            <div class="col-md-12 alert-col relative">
+                <div class="alert alert-info absolue center" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span>Profile save with success</span></div>
+            </div>
+        </div>
+        <form>
+            <div class="form-row profile-row">
+                <div class="col-md-4 relative">
+                    <div class="avatar">
+                        <div class="border rounded-0 avatar-bg center"></div>
+                    </div><input type="file" class="form-control" name="avatar-file"></div>
+                <div class="col-md-8">
+                    <h1 style="color: rgb(22,135,254);background-color: rgba(247,247,247,0);"><strong>Patient Profile</strong></h1>
+                    <hr>
+                    <div class="form-group"><label style="font-size: 16px;"><strong>Patient NID</strong></label><input class="form-control" type="number" required=""></div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-group"><label style="font-size: 16px;"><strong>Patient Name</strong></label><input class="form-control" type="text" name="firstname" required=""></div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Father Name</label><input class="form-control" type="text" name="firstname" required=""></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Mother Name</label><input class="form-control" type="text" name="lastname" required=""></div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Patient Gender</label><select class="form-control" required=""><optgroup label="Select A Gender"><option value="Female">Female</option><option value="Male">Male</option><option value="Other">Other</option></optgroup></select></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label style="margin-bottom: 0px;">Age</label></div><input class="form-control" type="number" required=""></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Patint Blood Group</label><select class="form-control" required=""><optgroup label="Select A Group"><option value="A+" selected="">A+</option><option value="A-">A-</option><option value="AB+">AB+</option><option value="AB-">AB-</option><option value="B+">B+</option><option value="B-">B-</option><option value="O+">O+</option><option value="O-">O-</option></optgroup></select></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label style="margin-bottom: 8px;">Contact Number</label><input class="form-control" type="number" required=""></div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group" style="margin-bottom: 0px;"><label style="margin-left: 2px;">Patint Height</label></div><input class="form-control" type="number" required=""></div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label style="margin-bottom: 0px;">Patient Weight</label></div><input class="form-control" type="number" required=""></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label style="margin-bottom: 0px;">Patient Tempature</label><input class="form-control" type="number" required=""></div>
+                        </div>
+                    </div>
+                    <div class="form-group"><label>Patient Address/ Birth Place<br></label><input class="form-control" type="text" required=""></div>
+                    <hr>
+                    <div class="form-row">
+                        <div class="col-md-12 content-right"><button class="btn btn-primary form-btn" type="submit">SAVE </button><button class="btn btn-danger form-btn" type="reset">CANCEL </button></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>
+    <div id="update" class="tab-pane fade">
+     <div class="container shadow-lg profile profile-view" id="profile" style="background-color: #f4f4f4;margin-top: 150px;margin-bottom: 150px;">
+        <div class="row">
+            <div class="col-md-12 alert-col relative">
+                <div class="alert alert-info absolue center" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span>Profile save with success</span></div>
+            </div>
+        </div>
+        <form>
+            <div class="form-row profile-row">
+                <div class="col-md-4 relative">
+                    <div class="avatar">
+                        <div class="border rounded-0 avatar-bg center"></div>
+                    </div><input type="file" class="form-control" name="avatar-file"></div>
+                <div class="col-md-8">
+                    <h1 style="color: rgb(22,135,254);background-color: rgba(247,247,247,0);"><strong>Patient Profile</strong></h1>
+                    <hr>
+                    <div class="form-group"><label style="font-size: 16px;"><strong>Patient NID</strong></label><input class="form-control" type="number" required=""></div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-group"><label style="font-size: 16px;"><strong>Patient Name</strong></label><input class="form-control" type="text" name="firstname" required=""></div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Father Name</label><input class="form-control" type="text" name="firstname" required=""></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Mother Name</label><input class="form-control" type="text" name="lastname" required=""></div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Patient Gender</label><select class="form-control" required=""><optgroup label="Select A Gender"><option value="Female">Female</option><option value="Male">Male</option><option value="Other">Other</option></optgroup></select></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label style="margin-bottom: 0px;">Age</label></div><input class="form-control" type="number" required=""></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label>Patint Blood Group</label><select class="form-control" required=""><optgroup label="Select A Group"><option value="A+" selected="">A+</option><option value="A-">A-</option><option value="AB+">AB+</option><option value="AB-">AB-</option><option value="B+">B+</option><option value="B-">B-</option><option value="O+">O+</option><option value="O-">O-</option></optgroup></select></div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label style="margin-bottom: 8px;">Contact Number</label><input class="form-control" type="number" required=""></div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group" style="margin-bottom: 0px;"><label style="margin-left: 2px;">Patint Height</label></div><input class="form-control" type="number" required=""></div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label style="margin-bottom: 0px;">Patient Weight</label></div><input class="form-control" type="number" required=""></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group"><label style="margin-bottom: 0px;">Patient Tempature</label><input class="form-control" type="number" required=""></div>
+                        </div>
+                    </div>
+                    <div class="form-group"><label>Patient Address/ Birth Place<br></label><input class="form-control" type="text" required=""></div>
+                    <hr>
+                    <div class="form-row">
+                        <div class="col-md-12 content-right"><button class="btn btn-primary form-btn" type="submit">SAVE </button><button class="btn btn-danger form-btn" type="reset">CANCEL </button></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>
+    <div id="ViewAndDelete" class="tab-pane fade">
+       <div class="container" style="width: 100%;">
+        <div class="row no-gutters text-left justify-content-center align-items-center">
+            <div class="col-md-12 search-table-col" style="width: 100%;margin-top: 0px;">
+                <div class="form-group pull-right col-lg-4"><input type="text" class="search form-control" placeholder="Search by typing here.."></div><span class="counter pull-right" style="color: rgb(88,82,82);"></span>
+                <div class="table-responsive table-bordered table table-hover table-bordered results"
+                    style="width: 100%;">
+                    <table class="table table-bordered table-hover">
+                        <thead class="bill-header cs">
+                            <tr>
+                                <th id="trs-hd" class="col-lg-1" style="width: 528px;">SL. No.</th>
+                                <th id="trs-hd-4" class="col-lg-1" style="width: 528px;">SL. No.</th>
+                                <th id="trs-hd-3" class="col-lg-1" style="width: 528px;">SL. No.</th>
+                                <th id="trs-hd-2" class="col-lg-1" style="width: 528px;">SL. No.</th>
+                                <th id="trs-hd-1" class="col-lg-1" style="width: 528px;">SL. No.</th>
+                                <th id="trs-hd" class="col-lg-2" style="width: 547px;">Area</th>
+                                <th id="trs-hd" class="col-lg-3" style="width: 567px;">Customer Name</th>
+                                <th id="trs-hd" class="col-lg-2" style="width: 581px;">Company Name</th>
+                                <th id="trs-hd" class="col-lg-2" style="width: 560px;">Member Since</th>
+                                <th id="trs-hd-5" class="col-lg-2" style="width: 560px;">Member Since</th>
+                                <th id="trs-hd" class="col-lg-2" style="width: 558px;">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="warning no-result">
+                                <td colspan="12"><i class="fa fa-warning"></i>&nbsp; No Result !!!</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>01</td>
+                                <td>01</td>
+                                <td>01</td>
+                                <td>01</td>
+                                <td>01</td>
+                                <td>India</td>
+                                <td>Souvik Kundu</td>
+                                <td>Bootstrap Stuido</td>
+                                <td>2014</td>
+                                <td class="text-center"><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
