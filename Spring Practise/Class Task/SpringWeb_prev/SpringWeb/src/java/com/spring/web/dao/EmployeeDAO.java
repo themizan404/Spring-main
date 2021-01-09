@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 @Repository
+@Transactional
 public class EmployeeDAO implements IEmployeeDAO {
 
     @Autowired
@@ -23,7 +24,7 @@ public class EmployeeDAO implements IEmployeeDAO {
     }
 
     @Override
-    @Transactional
+
     public Employee save(Employee employee) {
         // ######################### save by manual session ###########################
         /*
@@ -40,7 +41,7 @@ public class EmployeeDAO implements IEmployeeDAO {
     }
 
     @Override
-    @Transactional
+
     public Employee update(Employee employee) {
         sessionFactory.getCurrentSession().saveOrUpdate(employee);
         sessionFactory.getCurrentSession().flush();
@@ -48,7 +49,7 @@ public class EmployeeDAO implements IEmployeeDAO {
     }
 
     @Override
-    @Transactional
+
     public Employee delete(int id) {
         //        ######################### delete by manual session ###########################
         /*
@@ -63,7 +64,7 @@ public class EmployeeDAO implements IEmployeeDAO {
     }
 
     @Override
-    @Transactional
+
     public Employee getById(int id) {
         //        ######################### get single employee by manual session ##############
         /*
@@ -78,7 +79,7 @@ public class EmployeeDAO implements IEmployeeDAO {
     }
 
     @Override
-    @Transactional
+
     public List<Employee> getAll() {
         //        ######################### getall by manual session ###########################
         /*

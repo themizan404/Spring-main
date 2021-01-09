@@ -32,7 +32,6 @@ public class EmployeeController {
 
     @Autowired
     IEmployeeService employeeService;
-    
 
     // @RequestMapping - simple page return by Handler Mapping
     // method = RequestMethod.GET to specify HTTP request method
@@ -49,7 +48,7 @@ public class EmployeeController {
         model.setViewName("employee/create");
         return model;
     }
-    
+
     //Entity data bind with front end properties by using @ModelAttribute
     //Type and Error Handling Using BindingResult
     @RequestMapping(value = "/store", method = RequestMethod.POST)
@@ -116,12 +115,11 @@ public class EmployeeController {
 
      // =================== If we don't want to bind any property, using @InitBinder =====================
     /*
-    @InitBinder
-    public void restrictBind(WebDataBinder db) {
-        db.setDisallowedFields(new String[]{"name", "salary", "area"});
-    }
-    */
-    
+     @InitBinder
+     public void restrictBind(WebDataBinder db) {
+     db.setDisallowedFields(new String[]{"name", "salary", "area"});
+     }
+     */
     //test for jQuery
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     public String test() {
