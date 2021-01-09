@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>hospital</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Profile-Edit-Form-1.css">
+    <link rel="stylesheet" href="assets/css/Profile-Edit-Form.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Table-With-Search-1.css">
+    <link rel="stylesheet" href="assets/css/Table-With-Search.css">
+</head>
+
+<body>
+    <div class="container profile profile-view" id="profile-1">
+        <form>
+            <div class="form-row profile-row" style="margin-top: 0px;">
+                <div class="col-md-8 offset-xl-2">
+                    <h1>Hospital Profile </h1>
+                    <hr>
+                    <div class="form-group"><label style="font-size: 20px;"><strong>Hospital Number&nbsp;</strong></label><input class="border rounded border-dark form-control form-control-lg" type="text" required="" name="hospitalName"></div>
+                    <div class="form-group"><label>Hospital Name</label><input class="form-control" type="text" name="hospitalName" required=""></div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-group"><label>Hospital Type</label><select class="form-control" required="" name="hospitalType"><optgroup label="Select Type"><option value="Genaral">Genaral</option><option value="Specialize">Specialize</option></optgroup></select></div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group"><label>Hospital Category (if&nbsp;Specialize )</label><select class="form-control" name="hospitalCategory"><optgroup label="Select Category"><option value="General">General</option><option value="13"></option><option value="14">This is item 3</option></optgroup></select></div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-group"><label>Location</label><select class="form-control" required="" name="hospitalLocation"><optgroup label="Select Location"><option value="Barisal">Barisal</option><option value="Chittagong">Chittagong</option><option value="Dhaka">Dhaka</option><option value="Khulna">Khulna</option><option value="Mymensingh">Mymensingh</option><option value="Rajshahi">Rajshahi</option><option value="Rangpur">Rangpur</option><option value="Sylhet">Sylhet</option></optgroup></select></div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>NO</th>
+                                                <th>Department Name</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Name</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div><label>Department</label><select class="form-control" required="" name="hospitalLocation"><optgroup label="Select Department"></optgroup></select></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>NO</th>
+                                        <th><br>Laboratory Name</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Name</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div><label>Laboratory</label><select class="form-control" required="" name="hospitalLocation"><optgroup label="Select Laboratory"></optgroup></select></div>
+                    <hr>
+                    <div class="form-row">
+                        <div class="col-md-12 content-right"><button class="btn btn-primary form-btn" type="submit">SAVE </button><button class="btn btn-danger form-btn" type="reset">CANCEL </button></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Profile-Edit-Form.js"></script>
+    <script src="assets/js/Table-With-Search.js"></script>
+</body>
+
+</html>
