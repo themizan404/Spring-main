@@ -10,22 +10,144 @@
 </head>
 
 <body>
-<form>
- <fieldset>
-  <legend>Personalia:</legend>
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email"><br><br>
-  <label for="birthday">Birthday:</label>
-  <input type="date" id="birthday" name="birthday"><br><br>
-  <input type="submit" value="Submit">
- </fieldset>
- 
-</form>
-
+    <div class="container" style="margin-top: 10px;margin-bottom: 20px;">
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <fieldset>
+                        <legend>Pateint Details</legend>
+                        <div class="form-row">
+                            <div class="col"><label>Patient NID</label><input class="form-control" type="text"></div>
+                            <div class="col"><label>Patient Name</label><input class="form-control" type="text"></div>
+                            <div class="col"><label>Age</label><input class="form-control" type="text"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col"><label>Gender</label><input class="form-control" type="text"></div>
+                            <div class="col"><label>Address</label><input class="form-control" type="text"></div>
+                            <div class="col"><label>Temperature</label><input class="form-control" type="text"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col"><label>Weight</label><input class="form-control" type="text"></div>
+                            <div class="col"><label>Blood Pressure</label><input class="form-control" type="text"></div>
+                            <div class="col"></div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <hr style="background-color: #ff0000;height: 3px;">
+            <div class="form-row">
+                <div class="col">
+                    <fieldset>
+                        <legend>Patient History<a class="text-center float-right" href="#" style="color: rgb(0,10,255);">Click for Old Report</a></legend>
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Date</th>
+                                                <th>Diagnosis</th>
+                                                <th>Medicine</th>
+                                                <th>Test Result</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Cell 1</td>
+                                                <td>Cell 1</td>
+                                                <td>Cell 1</td>
+                                                <td>Cell 1</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <hr style="background-color: #ff0000;height: 3px;">
+            <div class="form-row">
+                <div class="col">
+                    <fieldset class="text-dark border rounded border-dark">
+                        <legend>Patient Diagnosis</legend>
+                        <div class="form-row">
+                            <div class="col-5"><select class="form-control"><option value="fever">fever</option><option value="backpain">backpain</option><option value="cough">cough</option></select></div>
+                            <div class="col-5"><input class="form-control" type="search" placeholder="duration"></div>
+                            <div class="col"><button class="btn btn-primary" type="button" style="font-size: 15px;width: 40px;height: 37px;">Ok</button></div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Symptoms</th>
+                                        <th>duration</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Cell 3</td>
+                                        <td>Cell 4</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col">
+                    <fieldset class="text-dark border rounded border-dark">
+                        <legend>Medicine</legend>
+                        <div class="form-row">
+                            <div class="col-5"><select class="form-control"><option value="napa">napa</option><option value="seclo">seclo</option><option value="ace+">ace+</option></select></div>
+                            <div class="col-5"><input class="form-control" type="search" placeholder="Dose"></div>
+                            <div class="col"><button class="btn btn-primary" type="button" style="font-size: 15px;width: 40px;height: 37px;">Ok</button></div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Medicine</th>
+                                        <th>Dose</th>
+                                        <th>Duration</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Cell 3</td>
+                                        <td><input class="form-control" type="text" style="width: 100px;"></td>
+                                        <td>Cell 3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col">
+                    <fieldset class="text-dark border rounded border-dark">
+                        <legend>Test</legend>
+                        <div class="form-row">
+                            <div class="col-5"><select class="form-control"><option value="CBC">CBC</option><option value="X-ray">X-ray</option><option value="Blood Group">Blood Group</option></select></div>
+                            <div class="col"><button class="btn btn-primary" type="button" style="font-size: 15px;width: 40px;height: 37px;">Ok</button></div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Test</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Cell 3</td>
+                                        <td>Cell 4</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </fieldset>
+                </div>
+            </div><button class="btn btn-success btn-lg text-center float-right" type="submit" style="width: 130px;height: 70px;margin-top: 30px;font-size: 25px;"><strong>Submit</strong></button></form>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
