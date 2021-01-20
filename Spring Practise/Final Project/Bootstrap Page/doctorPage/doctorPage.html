@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <div class="container" style="margin-top: 10px;margin-bottom: 20px;">
-        <form>
+    <div class="container" style="margin-top: 10px;margin-bottom: 30px;">
+        <form style="margin-bottom: 10px;">
             <div class="form-row">
                 <div class="col">
                     <fieldset>
@@ -29,7 +29,7 @@
                         <div class="form-row">
                             <div class="col"><label>Weight</label><input class="form-control" type="text"></div>
                             <div class="col"><label>Blood Pressure</label><input class="form-control" type="text"></div>
-                            <div class="col"></div>
+                            <div class="col"><label>Date</label><input class="form-control" type="date"></div>
                         </div>
                     </fieldset>
                 </div>
@@ -71,82 +71,137 @@
                 <div class="col">
                     <fieldset class="text-dark border rounded border-dark">
                         <legend>Patient Diagnosis</legend>
-                        <div class="form-row">
-                            <div class="col-5"><select class="form-control"><option value="fever">fever</option><option value="backpain">backpain</option><option value="cough">cough</option></select></div>
-                            <div class="col-5"><input class="form-control" type="search" placeholder="duration"></div>
-                            <div class="col"><button class="btn btn-primary" type="button" style="font-size: 15px;width: 40px;height: 37px;">Ok</button></div>
-                        </div>
                         <div class="table-responsive">
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>Symptoms</th>
-                                        <th>duration</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Cell 3</td>
-                                        <td>Cell 4</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </fieldset>
-                </div>
-                <div class="col">
-                    <fieldset class="text-dark border rounded border-dark">
-                        <legend>Medicine</legend>
-                        <div class="form-row">
-                            <div class="col-5"><select class="form-control"><option value="napa">napa</option><option value="seclo">seclo</option><option value="ace+">ace+</option></select></div>
-                            <div class="col-5"><input class="form-control" type="search" placeholder="Dose"></div>
-                            <div class="col"><button class="btn btn-primary" type="button" style="font-size: 15px;width: 40px;height: 37px;">Ok</button></div>
-                        </div>
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th>Medicine</th>
-                                        <th>Dose</th>
+                                        <th style="width: 10px;">#</th>
+                                        <th style="width: 630px;">Symptoms</th>
                                         <th>Duration</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Cell 3</td>
-                                        <td><input class="form-control" type="text" style="width: 100px;"></td>
-                                        <td>Cell 3</td>
+                                        <td>1</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Diagnosis</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                        <td><input class="form-control" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Diagnosis</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                        <td><input class="form-control" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Diagnosis</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                        <td><input class="form-control" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Diagnosis</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                        <td><input class="form-control" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Diagnosis</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                        <td><input class="form-control" type="text"></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </fieldset>
                 </div>
+            </div>
+            <div class="form-row">
                 <div class="col">
                     <fieldset class="text-dark border rounded border-dark">
-                        <legend>Test</legend>
-                        <div class="form-row">
-                            <div class="col-5"><select class="form-control"><option value="CBC">CBC</option><option value="X-ray">X-ray</option><option value="Blood Group">Blood Group</option></select></div>
-                            <div class="col"><button class="btn btn-primary" type="button" style="font-size: 15px;width: 40px;height: 37px;">Ok</button></div>
-                        </div>
+                        <legend>Medicine Table</legend>
                         <div class="table-responsive">
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>Test</th>
+                                        <th style="width: 10px;">#</th>
+                                        <th>Medicine</th>
+                                        <th style="width: 300px;">Dose</th>
+                                        <th style="width: 300px;">Duration</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Cell 3</td>
-                                        <td>Cell 4</td>
+                                        <td>1</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Medicine</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="">Select A Dose</option><option value="1+1+1">1+1+1</option><option value="1+1+0">1+1+0</option><option value="1+0+1">1+0+1</option></select></td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="">Select A Duration</option><option value="3 days">3 days</option><option value="7 days">7 days</option><option value="14 days">14 days</option></select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Medicine</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="">Select A Dose</option><option value="1+1+1">1+1+1</option><option value="1+1+0">1+1+0</option><option value="1+0+1">1+0+1</option></select></td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="">Select A Duration</option><option value="3 days">3 days</option><option value="7 days">7 days</option><option value="14 days">14 days</option></select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Medicine</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="">Select A Dose</option><option value="1+1+1">1+1+1</option><option value="1+1+0">1+1+0</option><option value="1+0+1">1+0+1</option></select></td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="">Select A Duration</option><option value="3 days">3 days</option><option value="7 days">7 days</option><option value="14 days">14 days</option></select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Medicine</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="">Select A Dose</option><option value="1+1+1">1+1+1</option><option value="1+1+0">1+1+0</option><option value="1+0+1">1+0+1</option></select></td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="">Select A Duration</option><option value="3 days">3 days</option><option value="7 days">7 days</option><option value="14 days">14 days</option></select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Medicine</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="">Select A Dose</option><option value="1+1+1">1+1+1</option><option value="1+1+0">1+1+0</option><option value="1+0+1">1+0+1</option></select></td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="">Select A Duration</option><option value="3 days">3 days</option><option value="7 days">7 days</option><option value="14 days">14 days</option></select></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </fieldset>
                 </div>
-            </div><button class="btn btn-success btn-lg text-center float-right" type="submit" style="width: 130px;height: 70px;margin-top: 30px;font-size: 25px;"><strong>Submit</strong></button></form>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <fieldset class="text-dark border rounded border-dark">
+                        <legend>Test Table</legend>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10px;">#</th>
+                                        <th style="width: 550px;">Test Name</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Test</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Test</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Test</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Test</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td><select class="form-control" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;"><option value="" selected="">Select A Test</option><option value="12">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </fieldset>
+                </div>
+            </div><button class="btn btn-success btn-lg text-center float-right" type="submit" style="width: 130px;height: 50px;margin-top: 30px;font-size: 25px;margin-bottom: 10px;"><strong>Submit</strong></button></form>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
