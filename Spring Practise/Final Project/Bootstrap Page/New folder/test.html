@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>invoice</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container" style="margin-bottom: 10px;">
+        <div class="row">
+            <div class="col">
+                <p class="text-center" style="font-size: 25px;"><strong>Hospital Management &amp; Information System</strong></p>
+                <p class="text-center">REPORT SLIP INVOICE</p>
+            </div>
+        </div>
+        <div class="row" style="font-size: 10px;">
+            <div class="col">
+                <p class="text-uppercase" style="font-size: 20px;margin-bottom: 0px;margin-top: 10px;"><strong>Invoice :&nbsp;</strong>INV-<input type="text" style="width: 200px;" name="id"><br></p>
+            </div>
+            <div class="col text-center"><button class="btn btn-light border rounded-0" type="button"><strong>Search Patient Test</strong></button></div>
+            <div class="col">
+                <p class="text-uppercase" style="font-size: 20px;margin-bottom: 0px;margin-top: 10px;">Date :&nbsp;<input type="text" name="date"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr></tr>
+                        </thead>
+                        <tbody class="text-left">
+                            <tr class="text-left">
+                                <td class="text-left" style="width: 150px;padding: 13px;font-size: 20px;"><strong>Patient NID:&nbsp;</strong></td>
+                                <td><input class="form-control-lg" type="text" style="width: 320px;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr></tr>
+                        </thead>
+                        <tbody class="text-left">
+                            <tr class="text-left">
+                                <td class="text-left" style="width: 160px;padding: 13px;font-size: 20px;">Patient Name:&nbsp;</td>
+                                <td><input class="form-control-plaintext" type="text" readonly="" style="padding-top: 0px;padding-bottom: 0px;font-size: 20px;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr></tr>
+                        </thead>
+                        <tbody class="text-left">
+                            <tr class="text-left">
+                                <td class="text-left" style="width: 150px;padding: 13px;font-size: 20px;">Patient Age:&nbsp;</td>
+                                <td><input class="form-control-plaintext" type="text" readonly="" style="padding-top: 0px;padding-bottom: 0px;font-size: 20px;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr></tr>
+                        </thead>
+                        <tbody class="text-left">
+                            <tr class="text-left">
+                                <td class="text-left" style="width: 170px;padding: 13px;font-size: 20px;">Patient Gender:&nbsp;</td>
+                                <td><input class="form-control-plaintext" type="text" readonly="" style="padding-top: 0px;padding-bottom: 0px;font-size: 20px;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr></tr>
+                        </thead>
+                        <tbody class="text-left">
+                            <tr class="text-left">
+                                <td class="text-left" style="width: 173px;padding: 13px;font-size: 20px;">Patient Address:&nbsp;</td>
+                                <td><input class="form-control-plaintext" type="text" readonly="" style="padding-top: 0px;padding-bottom: 0px;font-size: 20px;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p style="font-size: 20px;">Patient Test Result</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th style="width: 30px;">#</th>
+                                <th style="width: 500px;">Problem</th>
+                                <th style="width: 300px;">Result</th>
+                                <th style="width: 250px;">Reference Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><input type="text" style="width: 465px;"></td>
+                                <td><input type="url" style="width: 278px;"></td>
+                                <td><input type="text" style="width: 210px;"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><input type="text" style="width: 465px;"></td>
+                                <td><input type="url" style="width: 278px;"></td>
+                                <td><input type="text" style="width: 210px;"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><input type="text" style="width: 465px;"></td>
+                                <td><input type="url" style="width: 278px;"></td>
+                                <td><input type="text" style="width: 210px;"></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><input type="text" style="width: 465px;"></td>
+                                <td><input type="url" style="width: 278px;"></td>
+                                <td><input type="text" style="width: 210px;"></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><input type="text" style="width: 465px;"></td>
+                                <td><input type="url" style="width: 278px;"></td>
+                                <td><input type="text" style="width: 210px;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-right: 0px;margin-left: 0px;margin-top: 10px;">
+            <div class="col" style="margin-bottom: 20px;">
+                <p>Prepared By:&nbsp;</p>
+            </div>
+            <div class="col-3 text-center" style="margin-bottom: 20px;padding: 0px;">
+                <p></p><button class="btn btn-primary text-center" type="button" style="padding: 10px;">Print &amp; Save</button></div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
